@@ -1,0 +1,9 @@
+openai
+openai-whisper
+requests
+Pillow
+moviepy
+google-generativeai
+google-cloud-aiplatform
+google-cloud-texttospeech
+spleeter
