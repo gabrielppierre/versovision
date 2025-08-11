@@ -1,0 +1,25 @@
+# ---- Frameworks de IA e Processamento ----
+gradio
+openai-whisper
+spleeter==2.4.0
+tensorflow==2.9.1
+
+# ---- Bibliotecas do Google Cloud ----
+google-generativeai
+google-cloud-texttospeech
+google-cloud-aiplatform
+
+# ---- Utilitários de Vídeo e Imagem ----
+moviepy
+Pillow==10.4.0 # VERSÃO FIXADA: Compatível com Gradio (<11.0)
+
+# ---- Outros Utilitários ----
+python-dotenv
+requests
+
+# ---- Versões Fixadas para Evitar Conflitos Críticos ----
+# spleeter==2.4.0 exige versões mais antigas
+httpx==0.19.0
+typer<0.4.0
+# Gradio e Pandas precisam de uma versão < 2.0 do numpy
+numpy==1.26.4 # VERSÃO FIXADA: Evita o erro de incompatibilidade binária
